@@ -1,0 +1,142 @@
+body .h1 {                              
+    font-family: 'Rokkitt', serif;
+    background-color: rgb(223, 227, 230);
+     
+ }
+
+.pantalla {
+    display: grid;
+    grid-template-columns:100px 100px 100px ;
+    grid-template-rows: 100px 100px 100px;
+    gap: 5px;
+    width: 80px;
+}
+
+
+.numero{
+    gap: 10px; 
+    font-size: 30px;
+    background-color: rgb(192, 51, 87);
+    color: rgb(244, 240, 248);
+    text-align: center;
+    justify-content: center;
+}    
+
+.operador{
+    display: grid;
+    grid-template-columns:80px;
+    grid-template-rows: 80px;
+    font-size: 30px;
+    background-color: rgb(192, 51, 87);
+    color: rgb(244, 240, 248);
+    text-align: center;
+    justify-content: center;
+
+}
+.pantalla .operador:hover{
+    background-color: blue;
+    cursor:pointer;
+ 
+    
+    
+ }
+
+.pantalla .resultado {
+    display: grid;
+    margin: 2px;
+    grid-column: 1/5;
+    background-color: rgb(218, 50, 87);
+    border: 2px solid;
+    font-size: 50px ;
+}
+
+
+.cero{
+    display: grid;
+    grid-template-columns:80px;
+    grid-template-rows: 80px;
+    font-size: 30px;
+    background-color: rgb(192, 51, 87);
+    color: rgb(244, 240, 248);
+    text-align: center;
+    justify-content: center;
+    
+
+
+}
+
+.pantalla .cero:hover{
+    background-color: rgb(173, 80, 166);
+    cursor:pointer;
+ }
+
+.punto{
+    display: grid;
+    grid-template-columns:80px;
+    grid-template-rows: 80px;
+    font-size: 30px;
+    background-color: rgb(192, 51, 87);
+    color: rgb(244, 240, 248);
+    text-align: center;
+    justify-content: center;
+
+}
+.pantalla .punto:hover{
+    background-color: blue;
+    cursor:pointer;
+ }
+
+
+.borrar{
+    display: grid;
+    grid-template-columns:80px;
+    grid-template-rows: 80px;
+    font-size: 30px;
+    background-color: rgb(192, 51, 87);
+    color: rgb(244, 240, 248);
+    text-align: center;
+    justify-content: center;
+
+}
+.pantalla .borrar:hover{
+    background-color: blue;
+    cursor:pointer;
+ }
+
+
+.igual{
+    display: grid;
+    grid-template-columns:80px;
+    grid-template-rows: 80px;
+    font-size: 30px;
+    background-color: rgb(192, 51, 87);
+    color: rgb(244, 240, 248);
+    text-align: center;
+    justify-content: center;
+    grid-column: 1/5;
+
+}
+.pantalla .igual:hover{
+    background-color: blue;
+    cursor:pointer;
+ }
+ 
+
+
+.pantalla .numero:hover{
+    background-color: rgb(173, 80, 166);
+    cursor:pointer;
+    
+ }
+
+ footer{
+    font-family: 'Rokkitt', serif;
+    
+    background-color: rgb(172, 213, 245);
+    text-align: center;
+    color: black;
+
+ }
+
+
+
